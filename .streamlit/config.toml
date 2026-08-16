@@ -1,0 +1,26 @@
+[theme]
+# Optional visual theming — customize colors to match your brand
+primaryColor = "#FF4B4B"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#262730"
+textColor = "#FAFAFA"
+font = "sans serif"
+base = "dark"
+
+[server]
+# Increase if you hit issues sending larger payloads (webcam frames, etc.)
+maxUploadSize = 200
+# Streamlit's file watcher can conflict with OneDrive sync — see note below
+fileWatcherType = "auto"
+
+[browser]
+# Prevents Streamlit from phoning home usage stats — optional privacy preference
+gatherUsageStats = false
+
+[client]
+# Hides the "Fork/GitHub/Star" toolbar buttons in the top-right for a cleaner demo UI
+toolbarMode = "minimal"
+
+[logger]
+# Set to "debug" temporarily if you need verbose logs while debugging streamlit-webrtc issues
+level = "info"
